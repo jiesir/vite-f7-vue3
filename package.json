@@ -1,0 +1,42 @@
+{
+  "name": "vite-f7-vue3",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "jiesir",
+  "description": "移动端 Vue3 工程",
+  "keywords": [
+    "vue3",
+    "framework7",
+    "vite"
+  ],
+  "scripts": {
+    "dev": "cross-env VITE_ENV=dev vite",
+    "checks": "vue-tsc --noEmit",
+    "build": "rimraf dist && cross-env VITE_ENV=prod vite build",
+    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
+    "clean:lib": "npx rimraf node_modules"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dayjs": "^1.10.8",
+    "framework7": "^6.3.16",
+    "framework7-icons": "^5.0.5",
+    "framework7-vue": "^6.3.16",
+    "pinia": "^2.0.11",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "@vue/compiler-sfc": "^3.2.31",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.6.0",
+    "fs-extra": "^9.1.0",
+    "less": "^4.1.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2",
+    "vconsole": "^3.12.1",
+    "vite": "^2.8.6",
+    "vue-tsc": "^0.0.15"
+  }
+}

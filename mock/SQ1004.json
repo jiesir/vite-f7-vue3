@@ -1,0 +1,12 @@
+{
+    "code": "0000",
+    "msg": "success",
+    "list": [
+        {
+            "name": "zhangsan"
+        },
+        {
+            "name": "lisi"
+        }
+    ]
+}
