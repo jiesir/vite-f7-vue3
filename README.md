@@ -1,6 +1,6 @@
 ## 介绍
 
-项目基于`typescript`,`vue3.0`,`vue-router4.0`,`vuex4.0`,`vite2.0`实现的 vue3 风格的手机端基础工程，单页面应用。
+项目基于`typescript`,`vue3.0`,`framework7`,`pinia`,`vite2.0`实现的 vue3 风格的手机端基础工程，单页面应用，友好的体验。
 
 
 ## 预安装
